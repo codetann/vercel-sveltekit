@@ -1,6 +1,6 @@
 <script>
 	import '../app.postcss';
-	import { Layout, Search } from '$ui';
+	import { Layout } from '$ui';
 </script>
 
 <Layout>

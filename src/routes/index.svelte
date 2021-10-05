@@ -1,7 +1,10 @@
 <script lang="ts">
+	import { Search } from '$ui';
 	let name: string = 'hello';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>{name}</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<section>
+	<Search />
+</section>
+
+<section />

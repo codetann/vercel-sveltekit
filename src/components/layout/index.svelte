@@ -2,12 +2,12 @@
 	// your script goes here
 </script>
 
-<section>
+<main>
 	<slot />
-</section>
+</main>
 
 <style lang="postcss">
-	section {
+	main {
 		@apply flex;
 	}
 </style>
