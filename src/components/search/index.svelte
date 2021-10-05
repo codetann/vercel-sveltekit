@@ -35,11 +35,11 @@
 <style lang="postcss">
 	/* TODO: fix outline/ring/border input focus*/
 	form {
-		@apply flex bg-neutral rounded-md;
+		@apply flex bg-neutral rounded-md transition-all duration-200;
+		@apply hover:bg-black hover:bg-opacity-50;
 	}
 	input {
-		@apply bg-neutral  rounded-md pl-2 transition-all duration-200 rounded-l-lg rounded-r-none;
-		@apply hover:bg-black hover:bg-opacity-50;
+		@apply bg-transparent rounded-md pl-2 transition-all duration-200 rounded-l-lg rounded-r-none;
 		@apply focus:border-none focus:ring-0 focus:ring-offset-0 focus:outline-none;
 	}
 	input::placeholder {
@@ -50,5 +50,6 @@
 	}
 	.isHidden {
 		opacity: 0;
+		cursor: default;
 	}
 </style>
